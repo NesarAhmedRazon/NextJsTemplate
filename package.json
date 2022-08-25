@@ -1,0 +1,38 @@
+{
+  "name": "pcbbd",
+  "version": "1.0.0",
+  "description": "FrontEnd for pcbbd.com",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NesarAhmedRazon/PcbBD.git"
+  },
+  "author": "Pcb BD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NesarAhmedRazon/PcbBD/issues"
+  },
+  "homepage": "https://github.com/NesarAhmedRazon/PcbBD#readme",
+  "dependencies": {
+    "dompurify": "^2.4.0",
+    "next": "^12.2.5",
+    "postcss": "^8.4.16",
+    "react": "^18.2.0",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "sass": "^1.54.5",
+    "sass-loader": "^13.0.2",
+    "tailwindcss": "^3.1.8",
+    "webpack": "^5.74.0"
+  }
+}
